@@ -1,0 +1,17 @@
+[project]
+name = "pagechain"
+version = "0.1.0"
+description = "Hierarchical PageIndex retrieval with trained hop routers between specialists."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch"]
+
+[project.scripts]
+pagechain = "pagechain.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pagechain*"]

@@ -1,0 +1,803 @@
+{
+  "conditions": {
+    "direct": {
+      "n": 8,
+      "recall": 0.0,
+      "heading_hit": 0.0,
+      "route_acc": 0.625,
+      "answer_acc": 0.0,
+      "rows": [
+        {
+          "qid": "c1",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": true,
+          "answer_ok": false,
+          "hops": [
+            "code"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "c2",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": true,
+          "answer_ok": false,
+          "hops": [
+            "sql"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "c3",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": true,
+          "answer_ok": false,
+          "hops": [
+            "science"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "c4",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": true,
+          "answer_ok": false,
+          "hops": [
+            "law"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "c5",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": true,
+          "answer_ok": false,
+          "hops": [
+            "finance"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "h1",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "science"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "h2",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "code"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "h3",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "finance"
+          ],
+          "output": "",
+          "pages": []
+        }
+      ]
+    },
+    "flat": {
+      "n": 8,
+      "recall": 1.0,
+      "heading_hit": 0.875,
+      "route_acc": 0.625,
+      "answer_acc": 0.625,
+      "rows": [
+        {
+          "qid": "c1",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "code"
+          ],
+          "output": "assert_route",
+          "pages": [
+            "decoy_faq#FAQ",
+            "code_pytest#Setup",
+            "code_pytest#Helpers"
+          ]
+        },
+        {
+          "qid": "c2",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "sql"
+          ],
+          "output": "rev_fy26",
+          "pages": [
+            "sql_revenue#Aliases",
+            "decoy_faq#FAQ",
+            "science_crispr#Lab note"
+          ]
+        },
+        {
+          "qid": "c3",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "science"
+          ],
+          "output": "NGG",
+          "pages": [
+            "science_crispr#Lab note",
+            "science_crispr#Background",
+            "decoy_faq#FAQ"
+          ]
+        },
+        {
+          "qid": "c4",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "law"
+          ],
+          "output": "36 months",
+          "pages": [
+            "decoy_faq#FAQ",
+            "law_nda#Survival",
+            "law_nda#Parties"
+          ]
+        },
+        {
+          "qid": "c5",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "finance"
+          ],
+          "output": "branch_open_year",
+          "pages": [
+            "decoy_faq#FAQ",
+            "finance_iv#Instrument",
+            "law_nda#Parties"
+          ]
+        },
+        {
+          "qid": "h1",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "science"
+          ],
+          "output": "NGG",
+          "pages": [
+            "decoy_faq#FAQ",
+            "science_crispr#Lab note",
+            "sql_revenue#Aliases"
+          ]
+        },
+        {
+          "qid": "h2",
+          "recall": true,
+          "heading_hit": false,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "code"
+          ],
+          "output": "",
+          "pages": [
+            "decoy_faq#FAQ",
+            "code_pytest#Setup",
+            "law_nda#Parties"
+          ]
+        },
+        {
+          "qid": "h3",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "finance"
+          ],
+          "output": "branch_open_year",
+          "pages": [
+            "science_crispr#Lab note",
+            "decoy_faq#FAQ",
+            "finance_iv#Instrument"
+          ]
+        }
+      ]
+    },
+    "pageindex": {
+      "n": 8,
+      "recall": 1.0,
+      "heading_hit": 0.875,
+      "route_acc": 0.625,
+      "answer_acc": 0.625,
+      "rows": [
+        {
+          "qid": "c1",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "code"
+          ],
+          "output": "assert_route",
+          "pages": [
+            "code_pytest#Setup",
+            "code_pytest#Helpers",
+            "science_crispr#Lab note"
+          ]
+        },
+        {
+          "qid": "c2",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "sql"
+          ],
+          "output": "rev_fy26",
+          "pages": [
+            "sql_revenue#Aliases",
+            "science_crispr#Lab note",
+            "sql_revenue#Access"
+          ]
+        },
+        {
+          "qid": "c3",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "science"
+          ],
+          "output": "NGG",
+          "pages": [
+            "science_crispr#Lab note",
+            "science_crispr#Background",
+            "code_pytest#Helpers"
+          ]
+        },
+        {
+          "qid": "c4",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "law"
+          ],
+          "output": "36 months",
+          "pages": [
+            "law_nda#Survival",
+            "law_nda#Parties",
+            "code_pytest#CI"
+          ]
+        },
+        {
+          "qid": "c5",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "finance"
+          ],
+          "output": "branch_open_year",
+          "pages": [
+            "finance_iv#Instrument",
+            "finance_iv#Placebo",
+            "finance_iv#Returns"
+          ]
+        },
+        {
+          "qid": "h1",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "science"
+          ],
+          "output": "NGG",
+          "pages": [
+            "science_crispr#Lab note",
+            "science_crispr#Background",
+            "sql_revenue#Aliases"
+          ]
+        },
+        {
+          "qid": "h2",
+          "recall": true,
+          "heading_hit": false,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "code"
+          ],
+          "output": "",
+          "pages": [
+            "code_pytest#Setup",
+            "law_nda#Parties",
+            "law_nda#Survival"
+          ]
+        },
+        {
+          "qid": "h3",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "finance"
+          ],
+          "output": "branch_open_year",
+          "pages": [
+            "science_crispr#Lab note",
+            "finance_iv#Instrument",
+            "finance_iv#Placebo"
+          ]
+        }
+      ]
+    },
+    "chain": {
+      "n": 8,
+      "recall": 0.0,
+      "heading_hit": 0.0,
+      "route_acc": 0.625,
+      "answer_acc": 0.0,
+      "rows": [
+        {
+          "qid": "c1",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": true,
+          "answer_ok": false,
+          "hops": [
+            "code"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "c2",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": true,
+          "answer_ok": false,
+          "hops": [
+            "sql"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "c3",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": true,
+          "answer_ok": false,
+          "hops": [
+            "science"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "c4",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": true,
+          "answer_ok": false,
+          "hops": [
+            "law"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "c5",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": true,
+          "answer_ok": false,
+          "hops": [
+            "finance"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "h1",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "science"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "h2",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "code"
+          ],
+          "output": "",
+          "pages": []
+        },
+        {
+          "qid": "h3",
+          "recall": false,
+          "heading_hit": false,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "finance"
+          ],
+          "output": "",
+          "pages": []
+        }
+      ]
+    },
+    "chain_flat": {
+      "n": 8,
+      "recall": 1.0,
+      "heading_hit": 0.875,
+      "route_acc": 0.875,
+      "answer_acc": 0.875,
+      "rows": [
+        {
+          "qid": "c1",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "code",
+            "law"
+          ],
+          "output": "assert_route",
+          "pages": [
+            "decoy_faq#FAQ",
+            "code_pytest#Setup",
+            "code_pytest#Helpers",
+            "decoy_faq#FAQ",
+            "code_pytest#Setup",
+            "code_pytest#Helpers"
+          ]
+        },
+        {
+          "qid": "c2",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "sql"
+          ],
+          "output": "rev_fy26",
+          "pages": [
+            "sql_revenue#Aliases",
+            "decoy_faq#FAQ",
+            "science_crispr#Lab note"
+          ]
+        },
+        {
+          "qid": "c3",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "science",
+            "sql"
+          ],
+          "output": "NGG",
+          "pages": [
+            "science_crispr#Lab note",
+            "science_crispr#Background",
+            "decoy_faq#FAQ",
+            "science_crispr#Lab note",
+            "science_crispr#Background",
+            "decoy_faq#FAQ"
+          ]
+        },
+        {
+          "qid": "c4",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "law"
+          ],
+          "output": "36 months",
+          "pages": [
+            "decoy_faq#FAQ",
+            "law_nda#Survival",
+            "law_nda#Parties"
+          ]
+        },
+        {
+          "qid": "c5",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "finance",
+            "science"
+          ],
+          "output": "branch_open_year",
+          "pages": [
+            "decoy_faq#FAQ",
+            "finance_iv#Instrument",
+            "law_nda#Parties",
+            "finance_iv#Instrument",
+            "decoy_faq#FAQ",
+            "law_nda#Parties"
+          ]
+        },
+        {
+          "qid": "h1",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "science",
+            "sql"
+          ],
+          "output": "NGG rev_fy26",
+          "pages": [
+            "decoy_faq#FAQ",
+            "science_crispr#Lab note",
+            "sql_revenue#Aliases",
+            "decoy_faq#FAQ",
+            "science_crispr#Lab note",
+            "sql_revenue#Aliases"
+          ]
+        },
+        {
+          "qid": "h2",
+          "recall": true,
+          "heading_hit": false,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "code"
+          ],
+          "output": "",
+          "pages": [
+            "decoy_faq#FAQ",
+            "code_pytest#Setup",
+            "law_nda#Parties"
+          ]
+        },
+        {
+          "qid": "h3",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "finance",
+            "science"
+          ],
+          "output": "branch_open_year NGG",
+          "pages": [
+            "science_crispr#Lab note",
+            "decoy_faq#FAQ",
+            "finance_iv#Instrument",
+            "science_crispr#Lab note",
+            "finance_iv#Instrument",
+            "decoy_faq#FAQ"
+          ]
+        }
+      ]
+    },
+    "chain_pageindex": {
+      "n": 8,
+      "recall": 1.0,
+      "heading_hit": 0.875,
+      "route_acc": 0.875,
+      "answer_acc": 0.875,
+      "rows": [
+        {
+          "qid": "c1",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "code",
+            "law"
+          ],
+          "output": "assert_route",
+          "pages": [
+            "code_pytest#Setup",
+            "code_pytest#Helpers",
+            "science_crispr#Lab note",
+            "code_pytest#Setup",
+            "code_pytest#Helpers",
+            "science_crispr#Lab note"
+          ]
+        },
+        {
+          "qid": "c2",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "sql"
+          ],
+          "output": "rev_fy26",
+          "pages": [
+            "sql_revenue#Aliases",
+            "science_crispr#Lab note",
+            "sql_revenue#Access"
+          ]
+        },
+        {
+          "qid": "c3",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "science",
+            "sql"
+          ],
+          "output": "NGG",
+          "pages": [
+            "science_crispr#Lab note",
+            "science_crispr#Background",
+            "code_pytest#Helpers",
+            "science_crispr#Lab note",
+            "science_crispr#Background",
+            "code_pytest#Helpers"
+          ]
+        },
+        {
+          "qid": "c4",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "law"
+          ],
+          "output": "36 months",
+          "pages": [
+            "law_nda#Survival",
+            "law_nda#Parties",
+            "code_pytest#CI"
+          ]
+        },
+        {
+          "qid": "c5",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "finance",
+            "science"
+          ],
+          "output": "branch_open_year",
+          "pages": [
+            "finance_iv#Instrument",
+            "finance_iv#Placebo",
+            "finance_iv#Returns",
+            "finance_iv#Instrument",
+            "finance_iv#Placebo",
+            "finance_iv#Returns"
+          ]
+        },
+        {
+          "qid": "h1",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "science",
+            "sql"
+          ],
+          "output": "NGG rev_fy26",
+          "pages": [
+            "science_crispr#Lab note",
+            "science_crispr#Background",
+            "sql_revenue#Aliases",
+            "science_crispr#Lab note",
+            "science_crispr#Background",
+            "sql_revenue#Aliases"
+          ]
+        },
+        {
+          "qid": "h2",
+          "recall": true,
+          "heading_hit": false,
+          "route_ok": false,
+          "answer_ok": false,
+          "hops": [
+            "code"
+          ],
+          "output": "",
+          "pages": [
+            "code_pytest#Setup",
+            "law_nda#Parties",
+            "law_nda#Survival"
+          ]
+        },
+        {
+          "qid": "h3",
+          "recall": true,
+          "heading_hit": true,
+          "route_ok": true,
+          "answer_ok": true,
+          "hops": [
+            "finance",
+            "science"
+          ],
+          "output": "branch_open_year NGG",
+          "pages": [
+            "science_crispr#Lab note",
+            "finance_iv#Instrument",
+            "finance_iv#Placebo",
+            "science_crispr#Lab note",
+            "finance_iv#Instrument",
+            "finance_iv#Placebo"
+          ]
+        }
+      ]
+    }
+  },
+  "winner": "chain_pageindex"
+}
