@@ -1,12 +1,13 @@
 [project]
-name = "pagechain"
+name = "chained-models"
 version = "0.1.0"
-description = "Hierarchical PageIndex retrieval with trained hop routers between specialists."
+description = "Chained Models: hierarchical PageIndex retrieval with trained hop routers between specialists."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["torch"]
 
 [project.scripts]
+chained-models = "pagechain.__main__:main"
 pagechain = "pagechain.__main__:main"
 
 [build-system]

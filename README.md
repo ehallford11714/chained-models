@@ -1,4 +1,4 @@
-# PageChain
+# Chained Models
 
 Retrieve a hierarchical PageIndex, then a trained router picks the next frozen specialist. The second hop sees the first hop’s note plus a fresh page fetch. This is an assembly of published ideas (MoE routing, PageIndex, Socratic handoff). The ablation below is the claim.
 
@@ -39,5 +39,5 @@ python -m pagechain index examples/docs
 python -m pagechain ask What PAM does the lab note use?
 ```
 
-`train` writes `checkpoints/entry.pt` and `checkpoints/hop.pt`. `index` rebuilds the PageIndex from markdown headings. `ask` runs the default product path: PageIndex, then up to two trained hops. `PageChainSuite` is the same API in Python.
+`train` writes `checkpoints/entry.pt` and `checkpoints/hop.pt`. `index` rebuilds the PageIndex from markdown headings. `ask` runs the default product path: PageIndex, then up to two trained hops. `ChainedModels` is the same API in Python.
 

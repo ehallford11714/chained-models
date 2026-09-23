@@ -1,4 +1,4 @@
-"""Ask PageChain a question with the winning condition: chain + PageIndex."""
+"""Ask Chained Models a question with the winning condition: chain + PageIndex."""
 
 from __future__ import annotations
 

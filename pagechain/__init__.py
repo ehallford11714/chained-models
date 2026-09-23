@@ -1,11 +1,11 @@
-"""PageChain: PageIndex retrieval plus trained hop routers."""
+"""Chained Models: PageIndex retrieval plus trained hop routers."""
 
-__all__ = ["PageChainSuite"]
+__all__ = ["ChainedModels"]
 
 
 def __getattr__(name: str):
-    if name == "PageChainSuite":
-        from .suite import PageChainSuite
+    if name in {"ChainedModels", "PageChainSuite"}:
+        from .suite import ChainedModels
 
-        return PageChainSuite
+        return ChainedModels
     raise AttributeError(name)

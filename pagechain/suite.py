@@ -1,4 +1,4 @@
-"""PageChain suite: index, train, ask, ablate, save."""
+"""Chained Models suite: index, train, ask, ablate, save."""
 
 from __future__ import annotations
 
@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CKPT = ROOT / "checkpoints"
 
 
-class PageChainSuite:
+class ChainedModels:
     def __init__(self, index: PageIndex | None = None):
         self.index = index or PageIndex(DOCS)
         self.entry = Router()

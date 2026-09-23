@@ -1,4 +1,4 @@
-"""PageChain command line.
+"""Chained Models command line.
 
     python -m pagechain ablate
     python -m pagechain train
@@ -12,11 +12,11 @@ import argparse
 import json
 from pathlib import Path
 
-from .suite import PageChainSuite
+from .suite import ChainedModels
 
 
 def main(argv: list[str] | None = None) -> None:
-    parser = argparse.ArgumentParser(prog="pagechain", description="PageIndex plus trained hop routers")
+    parser = argparse.ArgumentParser(prog="chained-models", description="Chained Models: PageIndex plus trained hop routers")
     sub = parser.add_subparsers(dest="cmd")
     sub.add_parser("ablate", help="Run the six-condition ablation")
     sub.add_parser("train", help="Train entry and hop routers and save checkpoints")
@@ -31,7 +31,7 @@ def main(argv: list[str] | None = None) -> None:
     if args.cmd is None:
         parser.print_help()
         return
-    suite = PageChainSuite()
+    suite = ChainedModels()
     if args.cmd == "ablate":
         report = suite.ablate()
         print(json.dumps(report, indent=2))
